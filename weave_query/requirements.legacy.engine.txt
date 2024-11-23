@@ -15,3 +15,4 @@ objgraph>=3.6.0
 tabulate
 # Weaveflow Additions
 faiss-cpu
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
