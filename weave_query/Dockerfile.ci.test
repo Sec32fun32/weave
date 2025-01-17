@@ -1,5 +1,5 @@
 # Should match version in integration_test/package.json
-FROM python:3.9.11 as builder
+FROM python:3.14.0a4 as builder
 
 RUN apt update
 RUN apt -y install python3-venv python3-dev gcc g++ xz-utils
